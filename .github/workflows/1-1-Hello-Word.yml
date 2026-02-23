@@ -5,7 +5,6 @@ on:
       - developer
 jobs:
     Hello-World:
-      needs: [start_developer_branch]
       runs-on: ubuntu-latest
       steps:
         - name: Hello World
