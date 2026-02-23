@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - developer
-Jobs:
+jobs:
     Hello-World:
       needs: [start_developer_branch]
       runs-on: ubuntu-latest
